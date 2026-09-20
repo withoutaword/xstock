@@ -1,0 +1,29 @@
+app:
+  title: JLaw Edge Scanner
+  timezone: Asia/Shanghai
+
+universe:
+  file: config/universe.csv
+  benchmark: SPY
+  history_period: 2y
+
+scan:
+  candidate_score: 65
+  triggered_score: 70
+  min_net_edge: 25
+  min_risk_reward: 3.0
+  minimum_price: 5.0
+  minimum_avg_dollar_volume: 20000000
+
+risk:
+  account_value: 100000
+  risk_per_trade: 0.005
+  max_total_open_risk: 0.04
+
+edges:
+  near_ma_pct: 0.02
+  volume_expansion: 1.5
+  volume_contraction: 0.75
+  swing_window: 5
+  atr_period: 14
+
